@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch-8 Practice set</title>
+    <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            header{
+                background-color: black;
+                height: 70px;
+            }
+           main{
+                background-color: blue;
+                height: 100vh;
+                width: 100vw;
+
+            }
+
+            .bar{
+                width:100vw;
+                height: 3px;
+                background-color: red;
+                /* using transition */
+                transition : width 1s linear; 
+                /* animation: barAnimate 1s linear; */
+            }
+            
+            .bar:hover{
+                width: 0vw;
+            }
+
+            /* using animation */
+            /* @keyframes barAnimate{
+                0%{
+                    width: 0vw;
+                }
+                50%{
+                    width: 90vw;
+                }
+                100%{
+                    width:100vw;
+                } 
+            } */
+    </style>
+</head>
+<body>
+    <div class="bar"></div>
+    <header></header>
+    <main></main>
+     
+
+       
+   
+    
+</body>
+</html>
