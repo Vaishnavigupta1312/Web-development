@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0px 3%;
+
+}
+ul li{
+    display: inline;
+    padding : 0px 10px;
+}
+ul{
+    list-style: none;
+}
+li a, button {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: 550px;
+    color: black;
+}
+ul li a{
+    transition: all 0.3s ease 0s;
+}
+ul li a:hover{
+    font-weight: 700;
+}
+button{
+    color: white;
+    background-color: red;
+    padding: 5px 20px;
+    border: none;
+    /* border-radius: 50px; */
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+div.button
+{
+    box-shadow: 5px 5px;
+}
+button:hover{
+    background-color: #e34e4e;
+}
+.logo{
+    cursor:pointer;
+    
+}
+body{
+    background-color: red;
+}
